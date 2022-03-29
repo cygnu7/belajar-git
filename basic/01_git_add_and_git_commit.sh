@@ -32,3 +32,4 @@ cygnus7$ git log --oneline
 90da9b4 my first commit
 
 # Show Tracked File and Untracked File
+cygnus7$ git diff
