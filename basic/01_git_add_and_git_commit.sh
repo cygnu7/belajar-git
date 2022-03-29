@@ -1,11 +1,5 @@
 # Show Git Status
-cygnus7$ git log
-commit 90da9b4efbfe9cc759bdcc94fe3d91b76f4781e2 (HEAD)
-Author: Cygnus7 <cygnus7@This-MacBook-Air.local>
-Date:   Wed Mar 23 15:56:09 2022 +0700
-
-    my first commit
-(base) This-MacBook-Air:belajar-git cygnus7$ git status
+cygnus7$ git status
 HEAD detached at 90da9b4
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -14,5 +8,25 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-# Add
+# Track File To Git
 cygnus7$ git add .
+cygnus7$ git status
+HEAD detached at 90da9b4
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   basic/00_git_intro.sh
+	new file:   basic/01_git_add_and_git_commit.sh
+
+# Commit File To Repository
+cygnus7$ git commit -m "My Commit"
+[detached HEAD 3d6307c] My Commit
+ 3 files changed, 43 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 basic/00_git_intro.sh
+ create mode 100644 basic/01_git_add_and_git_commit.sh
+
+# Show Git Commit Log
+cygnus7$ git log --oneline
+3d6307c (HEAD) My Commit
+90da9b4 my first commit
