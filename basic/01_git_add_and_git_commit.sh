@@ -30,3 +30,5 @@ cygnus7$ git commit -m "My Commit"
 cygnus7$ git log --oneline
 3d6307c (HEAD) My Commit
 90da9b4 my first commit
+
+# Show Tracked File and Untracked File
