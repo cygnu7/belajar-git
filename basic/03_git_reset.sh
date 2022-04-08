@@ -67,4 +67,3 @@ cygnus7$ git log --oneline
 803bf02 Commit Again
 3d6307c My Commit
 90da9b4 my first commit
-
