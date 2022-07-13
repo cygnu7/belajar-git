@@ -13,7 +13,7 @@ $ git pull
 
 # Branch
 $ git checkout -b branchbaru
-branch baru
+branch baru lagi
 
 # Merge
 
