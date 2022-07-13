@@ -12,10 +12,13 @@ $ git push origin master
 $ git pull
 
 # Branch
-$ git checkout -b branchbaru
-branch baru lagi
+$ git checkout -b [branch-name]
+## Delete Branch
+$ git branch -d [branch-name]
 
 # Merge
+## Do it on branch master
+$ git merge [branch-name]
 
 # Fork
 
