@@ -21,5 +21,7 @@ $ git branch -d [branch-name]
 $ git merge [branch-name]
 
 # Fork
+Do it on github website.
 
 # .gitignore
+create file .gitignore inside the repository
