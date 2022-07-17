@@ -1,2 +1,2 @@
 # Belajar Git
-Git Cheatsheet for Cygnu7
+Git Cheatsheet
